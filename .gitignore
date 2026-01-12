@@ -40,7 +40,6 @@ bin/
 # Explicitly ignore system / IDE stuff
 .idea/
 *.iml
-src/
 target/
 
 # Allow gitignore itself
