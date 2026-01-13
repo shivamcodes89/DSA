@@ -19,4 +19,8 @@ public class PassingArrayAsArgument {
         }
         System.out.println();
     }
+
+    public static class LargestNumber {
+
+    }
 }
