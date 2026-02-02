@@ -1,28 +1,18 @@
 package Array;
 
 public class LargestNumber {
-    public static int getLargest(int numbers[]){
-        int largest = Integer.MIN_VALUE; // -infinity
+    public static void main(String[] args) {
+        int[] arr = {5, 7, 1, 3, 0, 10, 9};
+        System.out.println("largest value is: " + largestNumber(arr));
+    }
 
-        for(int i=0; i<numbers.length; i++){
-            if(largest < numbers[i]){
-                largest = numbers[i];
+    public static int largestNumber(int[] arr){
+        int largest = Integer.MIN_VALUE;
+        for(int i=0; i<arr.length; i++){
+            if(largest < arr[i]){
+                largest = arr[i];
             }
         }
         return largest;
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {67, 23, 59, 78, 100, 32, 89, 91};
-//        int MaxNumber = arr[0];
-//        for(int i=1; i< arr.length; i++){
-//            if(arr[i] > MaxNumber){
-//                MaxNumber = arr[i];
-//            }
-//        }
-//        System.out.println(MaxNumber);
-
-        System.out.println("largest value is: " + getLargest(arr));
-
     }
 }
