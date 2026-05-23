@@ -49,5 +49,6 @@ public class ArrayBasics {
         arr1[2] = 5;
         arr1[3] = 5;
         System.out.println(Arrays.toString(arr1));
+
     }
 }
